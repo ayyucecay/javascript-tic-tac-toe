@@ -190,13 +190,13 @@ function situation_game() {
     (b7 == 'X' || b7 == 'O') && (b8 == 'X' || b8 == 'O') && (b9 == 'X' || b9 == 'O')) {
     document.getElementById('result').innerHTML = "Match Tie";
 
-  } else {
-    if (flag == 1) {
-      document.getElementById('result').innerHTML = "Player X Turn";
-    } else {
-      document.getElementById('result').innerHTML = "Player O Turn";
-    }
-  }
+  } //else {
+    //if (flag == 1) {
+      //document.getElementById('result').innerHTML = "Player X Turn";
+    //} //else {
+    //  document.getElementById('result').innerHTML = "Player O Turn";
+  //  }
+//  }
 }
 
 flag = 1;
